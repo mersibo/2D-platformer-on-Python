@@ -95,7 +95,7 @@ def loadLevel(name):
                 entities.add(pr)
                 animatedEntities.add(pr)
         except:
-            print(u"Ошибка на монстрах")
+            print("Ошибка на монстрах")
 
     total_level_width = platforms_layer.num_tiles_x * PLATFORM_WIDTH # Считаем ширину уровня
     total_level_height = platforms_layer.num_tiles_y * PLATFORM_HEIGHT   # высоту
